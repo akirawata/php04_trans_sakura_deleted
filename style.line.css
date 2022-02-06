@@ -1,0 +1,508 @@
+/* ここから下に記載していく */
+@charset"utf-8";
+
+
+
+body {
+    width: 400px;
+    margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
+    font-size: 16px;
+    color:#222222;
+    text-align: center;
+    line-height: 30px;
+}
+
+.head{
+    background-color:rgba(235, 201, 8, 0.856);
+    font: size 150px;
+    font-style:inherit;
+    font-weight: bold;
+
+}
+
+#output{
+    height:500px;
+    overflow: auto;
+    background-color:rgb(224, 215, 196);
+}
+#outputframe{
+    height: 500px;
+    background-color: rgb(224, 215, 196);
+}
+
+#uname{
+    width: 60px;
+    height: 20px;
+}
+
+#text{
+    width: 250px;
+    height: 20px;
+}
+
+
+#inputarea { 
+    background-color: rgba(235, 201, 8, 0.856);
+    display: flex; 
+    flex-direction: row; 
+    gap: 1px;
+    justify-content:center;
+}
+
+#send{
+    position: relative; /* 今の位置を基準 */
+    bottom: 9px; /* 上から10px */
+}
+
+#talk{
+    position: relative; /* 今の位置を基準 */
+    bottom: 9px; /* 上から10px */
+}
+
+#othermessagediv{
+    text-align: left;
+    margin-left: 10px;
+}
+
+#mymessagediv{
+    text-align: left;
+    position: relative; /* 今の位置を基準 */
+    left: 90px; /* 上から10px */
+}
+
+#delete{
+    margin-top: auto;
+    width: 40px;
+    height: 20px;
+    font-size: 0.05px;
+    color: thistle;
+    border-color:whitesmoke;
+    background-color:whitesmoke;
+}
+
+#transl{
+    margin-top: auto;
+    width: 40px;
+    height: 20px;
+    font-size: 0.05px;
+    color: rgba(218, 30, 24, 0.884);
+    border-color:whitesmoke;
+    background-color:rgba(245, 245, 245, 0.432);
+}
+
+#othername{
+    font-size:  13px;
+    color:rgba(54, 59, 63, 0.651);
+    font-weight:bold
+}
+
+#myname{
+    font-size:  13px;
+    color:rgba(54, 59, 63, 0.651);
+    font-weight:bold
+}
+
+#othermessage{
+    width: 200px;
+    background-color:rgba(245, 245, 245, 0.952);
+    color:rgba(34, 36, 37, 0.651);
+}
+
+#mymessage{
+    width: 200px;
+    background-color:rgba(245, 245, 245, 0.952);
+    color:rgba(34, 36, 37, 0.651);
+}
+
+#otherdate{
+    font-size: 0.05px;
+    text-align: right;
+    width:200px;
+}
+
+#mydate{
+    font-size: 0.05px;
+    text-align: right;
+    width:200px;
+    position: relative; /* 今の位置を基準 */
+    left: 50px; /* 上から10px */
+}
+
+#othermsgdelete{
+    display: flex; 
+    flex-direction: row; 
+    gap: 5px;
+}
+
+#mymsgdelete{
+    display: flex; 
+    flex-direction: row; 
+    gap: 5px;
+}
+
+#idarea{
+    display: flex; 
+    flex-direction: row; 
+    gap: 5px;
+    justify-content: center;
+}
+
+#talk{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(255, 230, 0);
+    border: none;
+}
+#make-call{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(255, 230, 0);
+    position: relative; /* 今の位置を基準 */
+    bottom: 9px; /* 上から10px */
+    border: none;
+}
+
+#talkarea{
+    display: flex; 
+    flex-direction: row; 
+    gap: 40px;
+    justify-content: center;
+}
+
+.container { 
+    display: flex; 
+    flex-direction: row; 
+    gap: 50px;
+    justify-content:center;
+}
+
+.item1{
+    margin-top: 15px;
+}
+
+.item2 {
+    font-size: 21px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mainvisual {
+    position: relative;/*相対配置*/
+    }
+    
+.mainvisual2 {
+  position: absolute;/*絶対配置*/
+  color:white;/*文字は白に*/
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  }         
+.mainvisual p1 {
+font-size: 40px;
+}  
+.mainvisual p2 {
+    font-size: 30px;
+    }  
+.mainvisual p3 {
+    font-size: 20px;
+    }  
+
+#about {
+    font-size: 24px;    
+    font-weight: bold;
+    color:#ffd61a;
+    margin-top: 57px;
+    margin-bottom: 21px;
+}
+.について {
+    font-size: 18px;
+    margin-bottom: 47px;
+}   
+
+.チーズの素晴らしさ{
+    margin-bottom: 26px;
+    margin-top: 30px; 
+}
+
+.卒業後{
+    margin-top: 26px;
+    margin-bottom: 73px;
+}
+
+.写真集{ 
+    display: flex;
+flex-direction: row;
+flex-shrink: 0;
+width: 120opx;
+ }
+
+
+ #course {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 57px;
+    margin-bottom: 20px;
+ }
+
+ .コース {
+    margin-bottom: 48px;
+ }
+
+.農園{
+    display: flex;
+}
+.農園説明{
+    width: 600px;
+    height: 420px;
+    background-color: #fafafa;
+    padding-left: 50px; 
+    padding-right: 120px;
+    text-align: left;
+}
+.農園説明{
+    display: flex;
+    align-items: center; 
+}
+.本格的{
+    margin-bottom: 27px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.先生{
+    display: flex;
+}
+.先生説明{
+    width: 600px;
+    height: 420px;
+    background-color: #fafafa;
+    padding-right: 50px; 
+    padding-left: 120px;
+    text-align: left;
+}
+.先生説明{
+    display: flex;
+    align-items: center; 
+}
+.必要な知識も{
+    margin-bottom: 27px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.卒業制作{
+    display: flex;
+    margin-bottom: 57px;
+}
+.卒業制作説明{
+    width: 600px;  
+    height: 420px; 
+    background-color: #fafafa;
+    padding-left: 50px; 
+    padding-right: 115px;
+    text-align: left;
+}
+.卒業制作説明{
+    display: flex;
+    align-items: center; 
+}
+.卒業制作は{
+    margin-bottom: 27px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+ #news{
+    font-size: 24px;
+    color: #ffd61a;
+    margin-bottom: 21px;
+    font-weight: bold;
+ }
+
+ .ニュース和文タイトル{
+     font-size: 18px;
+ }
+
+ .ニュース欄{
+    margin-top: 54px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+     }
+
+.日付{
+    margin-top: 23px;
+    margin-bottom: 17px;
+}
+.ニュース文章{
+text-align:left;
+font-size: 14px;
+}
+
+.ニュース文章:hover {
+    background: #fff;
+    color: #f4b364;
+}
+
+.ニュース写真:hover {
+transform:scale(1.2,1.2)
+}
+
+.More{
+    font-size: 18px;
+    background-color:#ffd61a;
+    color: white;
+    width: 300px;
+    margin-top: 53px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 15px;
+    padding-bottom: 15px;     
+}
+
+.More:hover {
+    transform:scale(1.2,1.2)
+    }
+
+.accessエリア {
+background:#fafafa  ;
+padding-top: 57px;
+padding-bottom: 60px;
+}
+
+#access {
+margin-bottom: 21px;
+font-size: 24pt;
+font-weight: bold;
+}
+
+.会社情報{
+    font-size: 18px;
+}
+
+.地図{
+    margin-top: 54px;
+    margin-bottom: 60px;
+}
+
+.アクセス情報表{
+    margin-left: 250pt; 
+}
+     
+#contact{
+    font-size: 24px;
+    margin-top: 57px;
+    margin-bottom: 21px;
+    font-weight: bold;
+}
+.説明会{
+    margin-bottom: 47px;
+    font-size: 18px;
+}
+.注記{
+    margin-top: 16px;
+    margin-bottom: 63px;   
+}
+
+.contact-table, td.ta1, th.ta1, td.ta2, th.ta2,td.ta3, th.ta3 { 
+    border: 1px solid #bfbfbf; 
+}
+
+.contact-table, th.ta1, th.ta2, th.ta3 { 
+    border-left: 1px solid white; 
+}
+
+.contact-table, td.ta1,td.ta2,td.ta3 { 
+    border-right: 1px solid white; 
+}
+
+
+
+.contact-table {
+    margin-left:auto;
+    margin-right: auto;
+    margin: bottom 30px;
+
+}
+
+.contact-form th{
+    text-align:left;
+    width: 240px;
+    padding-left: 16px;
+    padding-right: 64px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.contact-form td{
+    width: 400px;
+    text-align: left;
+    line-height: 40px;
+}
+
+input[type="text"] {
+     width: 328px;
+     height: 30px;
+     margin-top: 8px;
+     margin-left: 8px;
+     }
+
+input[type="mail"] {
+        width: 328px;
+        height: 30px;
+        margin-top: 8px;
+        margin-left: 8px;
+        }
+
+select[name="kikkake"] {
+    width: 336px;
+    height: 36px;
+    margin-top: 8px;
+    margin-left: 8px;
+            }
+
+textarea{
+    width: 328px;
+    height: 95px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+input[type="submit"]{
+    font-size: 18px;
+    background-color:#ffd61a;
+    color: white;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 15px;
+    padding-bottom: 15px;  
+    border: none;
+}
+
+input[type="submit"]:hover {
+    transform:scale(1.2,1.2)
+    }
+
+
+.contact-table, td.ta1, th.ta1 {
+    height: 52px;
+}
+
+.フッター{
+    background-color: #707070;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 140px;
+    line-height: 16px;
+}
+
+
+
